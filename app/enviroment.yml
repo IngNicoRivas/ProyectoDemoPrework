@@ -1,0 +1,9 @@
+name: pydata1
+channels:
+  - defaults
+dependencies:
+  - python
+  - pandas
+  - boltons
+  - ipykernel
+prefix: /home/nico_rivas/miniconda3/envs/pydata1
