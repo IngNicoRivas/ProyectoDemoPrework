@@ -312,6 +312,4 @@ $RECYCLE.BIN/
 *.3dm
 *.max
 
-#apuntes
-*.ipynb
 # End of https://www.toptal.com/developers/gitignore/api/windows,linux,macos,python
