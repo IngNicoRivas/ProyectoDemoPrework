@@ -11,7 +11,7 @@ def generate_bar_chart(name, labels, values): #name to change the name of savefi
     
     plt.grid(axis= 'y')
     #plt.show() # display plot
-    plt.savefig(f'./py_project/app/imgs/{name}.png')
+    plt.savefig(f'./app/imgs/{name}.png')
     plt.close() 
 
 def generate_pie_chart(name, labels, values): 
@@ -21,7 +21,7 @@ def generate_pie_chart(name, labels, values):
     plt.legend(title = 'Countries')
     ax.axis('equal') # equal because it is a pie
     #plt.show()
-    plt.savefig(f'./py_project/app/imgs/{name}.png')
+    plt.savefig(f'./app/imgs/{name}.png')
     plt.close() 
 
 if __name__ == '__main__' :

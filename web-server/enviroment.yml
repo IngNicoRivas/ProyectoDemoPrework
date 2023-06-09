@@ -1,0 +1,7 @@
+name: webenv
+channels:
+  - defaults
+dependencies:
+  - python
+  - requests
+prefix: /home/nico_rivas/miniconda3/envs/webenv
